@@ -1,0 +1,31 @@
+{
+    "plugins": [
+      "@typescript-eslint",
+      "airbnb-typescript",
+      "prettier"
+    ],
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "airbnb-typescript",
+      "@typescript-eslint",
+      "prettier"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "ecmaVersion": 2021,
+      "sourceType": "module"
+    },
+    "env": {
+      "es6": true,
+      "browser": true,
+      "node": true
+    },
+    "rules": {
+      "no-debugger": "off",
+      "no-console": 0,
+      "semi": ["error", "never"],
+      "spaced-comment": ["error", "never"],
+      "prettier/prettier": "error"
+    }
+  }
